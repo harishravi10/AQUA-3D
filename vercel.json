@@ -19,7 +19,32 @@
       "dest": "backend/main.py"
     },
     {
-      "handle": "filesystem"
+      "src": "/assets/(.*)",
+      "dest": "/frontend/assets/$1"
+    },
+    {
+      "src": "/favicon.svg",
+      "dest": "/frontend/favicon.svg"
+    },
+    {
+      "src": "/icons.svg",
+      "dest": "/frontend/icons.svg"
+    },
+    {
+      "src": "/manifest.webmanifest",
+      "dest": "/frontend/manifest.webmanifest"
+    },
+    {
+      "src": "/sw.js",
+      "dest": "/frontend/sw.js"
+    },
+    {
+      "src": "/(.*\\.(?:js|css|svg|png|jpg|jpeg|gif|webp|ico|json|webmanifest|woff|woff2|ttf|wasm))$",
+      "dest": "/frontend/$1"
+    },
+    {
+      "src": "/frontend/(.*)",
+      "dest": "/frontend/$1"
     },
     {
       "src": "/(.*)",

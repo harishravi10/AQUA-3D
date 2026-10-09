@@ -9,14 +9,14 @@
       "bottle_capacity": 1000,
       "waking_time": "07:00",
       "sleeping_time": "23:00",
-      "theme_preference": "dark",
+      "theme_preference": "light",
       "reduced_motion": true,
       "low_power_3d": true,
-      "bottle_style": "futuristic_glass",
+      "bottle_style": "crystal_decanter",
       "gamification_enabled": true,
       "current_streak": 3,
       "longest_streak": 7,
-      "total_volume_logged_ml": 21050,
+      "total_volume_logged_ml": 22250,
       "created_at": "2026-09-25T23:15:32.588449"
     }
   },
@@ -452,6 +452,46 @@
       "logged_at": "2026-10-09T18:41:02.030Z",
       "is_deleted": false,
       "created_at": "2026-10-10T00:11:02.044028"
+    },
+    {
+      "id": "fcbee9a5-69b8-481c-81dc-271bb4f47143",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 150,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:46:12.630Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:16:12.639767"
+    },
+    {
+      "id": "ad82ccd4-fc76-4dbf-a695-53616108c851",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 500,
+      "container_type": "mug",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:56:43.715Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:26:43.723330"
+    },
+    {
+      "id": "d32e38ca-3847-4d92-969f-08ba37e1972f",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 300,
+      "container_type": "mug",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:56:47.378Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:26:47.386520"
+    },
+    {
+      "id": "935baad4-a641-4d14-9046-cc05adbf5f3d",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 250,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:57:19.147Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:27:19.156440"
     }
   ],
   "reminders": {
@@ -498,7 +538,7 @@
       },
       "device_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
       "created_at": "2026-10-10T00:03:02.257761",
-      "updated_at": "2026-10-10T00:08:42.073234"
+      "updated_at": "2026-10-10T00:17:49.009888"
     }
   ],
   "delivery_logs": [
@@ -519,6 +559,15 @@
       "status": "simulated",
       "details": "Test simulated delivery to harishravi1006@gmail.com. Subject: '\ud83d\udca7 Quick hydration check-in, Hydro Voyager!'",
       "created_at": "2026-10-10T00:00:32.584544"
+    },
+    {
+      "id": "256ec4d1-0aa6-4a83-ae88-ca58fd0b42e0",
+      "user_id": "user-demo-aqua3d",
+      "channel": "email",
+      "notification_type": "reminder",
+      "status": "simulated",
+      "details": "Test simulated delivery to champion@aqua3d.app. Subject: '\ud83d\udca7 Quick hydration check-in, jhds!'",
+      "created_at": "2026-10-10T00:17:46.360315"
     }
   ],
   "user_achievements": [
