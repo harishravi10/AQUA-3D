@@ -1,0 +1,654 @@
+{
+  "profiles": {
+    "user-demo-aqua3d": {
+      "id": "user-demo-aqua3d",
+      "email": "champion@aqua3d.app",
+      "display_name": "jhds",
+      "timezone": "America/New_York",
+      "unit_preference": "ml",
+      "bottle_capacity": 1000,
+      "waking_time": "07:00",
+      "sleeping_time": "23:00",
+      "theme_preference": "dark",
+      "reduced_motion": true,
+      "low_power_3d": true,
+      "bottle_style": "futuristic_glass",
+      "gamification_enabled": true,
+      "current_streak": 3,
+      "longest_streak": 7,
+      "total_volume_logged_ml": 21050,
+      "created_at": "2026-09-25T23:15:32.588449"
+    }
+  },
+  "goals": {
+    "user-demo-aqua3d": {
+      "id": "e02815cf-73d7-4985-abb5-e5476174bfeb",
+      "user_id": "user-demo-aqua3d",
+      "daily_target_ml": 2500,
+      "activity_multiplier": 1.0,
+      "effective_date": "2026-10-10",
+      "created_at": "2026-10-10T00:00:48.617731"
+    }
+  },
+  "intake_logs": [
+    {
+      "id": "e6315e56-9dd7-44b8-8ed6-8755abda137b",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 600,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-02T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-02T08:30:32.588449"
+    },
+    {
+      "id": "7f167ba5-e955-4bdc-af7c-85e2ad9d9092",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 840,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-02T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-02T12:15:32.588449"
+    },
+    {
+      "id": "ed9c3a59-34be-473d-ac0c-7292d715ba42",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 600,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-02T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-02T15:45:32.588449"
+    },
+    {
+      "id": "dc0c9dea-e67c-4bca-af01-37c388d3647a",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 360,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-02T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-02T19:20:32.588449"
+    },
+    {
+      "id": "193d319d-6a0a-4e12-8b71-3dbbbf5830cc",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 650,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-03T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-03T08:30:32.588449"
+    },
+    {
+      "id": "de011218-e857-4d93-b254-a6d7678c1725",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 909,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-03T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-03T12:15:32.588449"
+    },
+    {
+      "id": "6aaec550-f08d-4f88-93ba-31aebd723896",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 650,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-03T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-03T15:45:32.588449"
+    },
+    {
+      "id": "650a0773-045b-43a4-b7b3-9fb38a2bb060",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 391,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-03T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-03T19:20:32.588449"
+    },
+    {
+      "id": "fa9fb00d-6544-49f9-b6c5-0bbabcbf61f8",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 625,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-04T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-04T08:30:32.588449"
+    },
+    {
+      "id": "0e8b1fdc-560f-4e03-8362-7bc242676470",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 875,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-04T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-04T12:15:32.588449"
+    },
+    {
+      "id": "c9bdefe3-4a08-4e33-b91e-27531f5108fe",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 625,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-04T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-04T15:45:32.588449"
+    },
+    {
+      "id": "fabe686b-3f47-4d85-b388-d34d920df01e",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 375,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-04T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-04T19:20:32.588449"
+    },
+    {
+      "id": "39a9e55d-1298-4c04-a747-d61037c85fea",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 687,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-05T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-05T08:30:32.588449"
+    },
+    {
+      "id": "22146e38-07f2-4150-aeb2-54444f254c76",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 962,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-05T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-05T12:15:32.588449"
+    },
+    {
+      "id": "109a610b-b17c-4b27-92a6-68d7fa43e4a3",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 687,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-05T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-05T15:45:32.588449"
+    },
+    {
+      "id": "d9e1ca07-a356-4495-adbf-4a7807786692",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 414,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-05T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-05T19:20:32.588449"
+    },
+    {
+      "id": "b4a1d2c4-9f42-4608-b141-92640615e161",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 525,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-06T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-06T08:30:32.588449"
+    },
+    {
+      "id": "9102f9fb-9c94-41b4-b501-a8a58524a821",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 735,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-06T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-06T12:15:32.588449"
+    },
+    {
+      "id": "b3f93a48-2110-415b-a04f-c901902d07ea",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 525,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-06T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-06T15:45:32.588449"
+    },
+    {
+      "id": "3fac6663-3b4a-4ecf-bbc3-d44dd50615d0",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 315,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-06T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-06T19:20:32.588449"
+    },
+    {
+      "id": "12aa6773-bc74-45e4-bebc-8955803b4472",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 637,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-07T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-07T08:30:32.588449"
+    },
+    {
+      "id": "0d7ebe1f-f0c8-495c-8940-cf39534cc090",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 892,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-07T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-07T12:15:32.588449"
+    },
+    {
+      "id": "c7737e02-9f6b-40b4-a996-ef7f9d3df163",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 637,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-07T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-07T15:45:32.588449"
+    },
+    {
+      "id": "0868b1dc-7290-4638-a206-14cb8531549d",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 384,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-07T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-07T19:20:32.588449"
+    },
+    {
+      "id": "7a820bad-76d9-4f4d-9fff-fa8ae6c82d3c",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 650,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-08T08:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-08T08:30:32.588449"
+    },
+    {
+      "id": "0daeff48-f64c-439f-ae81-1ae9b0065269",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 909,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-08T12:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-08T12:15:32.588449"
+    },
+    {
+      "id": "f8274a33-9564-455b-bb03-e559dc7a95b9",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 650,
+      "container_type": "mug",
+      "temperature": "room_temp",
+      "logged_at": "2026-10-08T15:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-08T15:45:32.588449"
+    },
+    {
+      "id": "28623873-a2ae-45d0-b1e2-0ea5cafbe933",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 391,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-08T19:20:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-08T19:20:32.588449"
+    },
+    {
+      "id": "log-today-1",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 350,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T08:15:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-09T08:15:32.588449"
+    },
+    {
+      "id": "log-today-2",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 500,
+      "container_type": "bottle",
+      "temperature": "ice_cold",
+      "logged_at": "2026-10-09T11:30:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-09T11:30:32.588449"
+    },
+    {
+      "id": "log-today-3",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 400,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T14:45:32.588449",
+      "is_deleted": false,
+      "created_at": "2026-10-09T14:45:32.588449"
+    },
+    {
+      "id": "e3e91ff9-386a-4ade-8ff3-a88213f90bd0",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 250,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T23:16:43.845119",
+      "notes": "Post workout sip",
+      "is_deleted": true,
+      "client_mutation_id": "test-mut-001",
+      "created_at": "2026-10-09T23:16:43.845135"
+    },
+    {
+      "id": "b7e8a082-364d-4b68-823c-fb1472b2019b",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 250,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T23:32:09.423912",
+      "is_deleted": true,
+      "created_at": "2026-10-09T23:32:09.423912"
+    },
+    {
+      "id": "882b3e72-2588-458d-9450-e1bada0c0482",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 250,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T23:33:26.839955",
+      "is_deleted": true,
+      "created_at": "2026-10-09T23:33:26.839955"
+    },
+    {
+      "id": "23a63c41-f063-46fc-92c6-451d5be00103",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 250,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T23:46:57.058677",
+      "is_deleted": true,
+      "created_at": "2026-10-09T23:46:57.058677"
+    },
+    {
+      "id": "4f68ccfb-2a4f-44ed-8c4f-17ae4f7ea788",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 100,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:24:51.779Z",
+      "is_deleted": false,
+      "created_at": "2026-10-09T23:54:51.795942"
+    },
+    {
+      "id": "ab9dce94-feeb-4bcd-8bc2-01a9aeaa8afe",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 100,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:31:59.143Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:01:59.150906"
+    },
+    {
+      "id": "3cdb2f35-c5cb-40e0-a66e-ad6d5c5628e9",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 500,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:32:00.875Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:02:00.882295"
+    },
+    {
+      "id": "599e8226-3908-4ce8-89ab-9921a3a965ee",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 500,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:32:01.825Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:02:01.832838"
+    },
+    {
+      "id": "717a535b-6b7c-4352-92a1-d095b3d20a9b",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 300,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:32:05.605Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:02:05.612671"
+    },
+    {
+      "id": "aa6dad17-22b0-4688-a4ed-eaecea4d6e57",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 500,
+      "container_type": "bottle",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:32:11.033Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:02:11.040728"
+    },
+    {
+      "id": "51ed7f5d-29bc-4cf8-8462-34de4f703e6c",
+      "user_id": "user-demo-aqua3d",
+      "amount_ml": 300,
+      "container_type": "glass",
+      "temperature": "cool",
+      "logged_at": "2026-10-09T18:41:02.030Z",
+      "is_deleted": false,
+      "created_at": "2026-10-10T00:11:02.044028"
+    }
+  ],
+  "reminders": {
+    "user-demo-aqua3d": {
+      "id": "rem-demo",
+      "user_id": "user-demo-aqua3d",
+      "enabled": true,
+      "start_time": "08:00",
+      "end_time": "21:00",
+      "frequency_minutes": 60,
+      "quiet_hours_start": "22:00",
+      "quiet_hours_end": "07:00",
+      "daily_limit": 12,
+      "pause_until": null,
+      "email_enabled": true,
+      "push_enabled": false,
+      "stop_when_target_reached": true,
+      "updated_at": "2026-10-09T23:16:43.881308",
+      "quiet_hours_enabled": true,
+      "quiet_start": "22:00",
+      "quiet_end": "07:00",
+      "daily_reminder_limit": 8
+    }
+  },
+  "email_prefs": {
+    "user-demo-aqua3d": {
+      "user_id": "user-demo-aqua3d",
+      "reminder_emails": true,
+      "daily_summary": true,
+      "goal_celebrations": true,
+      "weekly_report": true,
+      "unsubscribe_token": "token-aqua-unsub-12345",
+      "recipient_email": "harishravi1006@gmail.com"
+    }
+  },
+  "push_subs": [
+    {
+      "id": "3573475f-3cb4-45f4-9bb8-903976ae5642",
+      "user_id": "user-demo-aqua3d",
+      "endpoint": "https://fcm.googleapis.com/fcm/send/fake-device-endpoint",
+      "keys": {
+        "p256dh": "BN7vO-sample-p256dh-key",
+        "auth": "auth-secret-aqua"
+      },
+      "device_info": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+      "created_at": "2026-10-10T00:03:02.257761",
+      "updated_at": "2026-10-10T00:08:42.073234"
+    }
+  ],
+  "delivery_logs": [
+    {
+      "id": "7cb69df2-7700-4034-b2cb-8fea1a47e331",
+      "user_id": "user-demo-aqua3d",
+      "channel": "email",
+      "notification_type": "reminder",
+      "status": "simulated",
+      "details": "Test simulated delivery to champion@aqua3d.app. Subject: '\ud83d\udca7 Quick hydration check-in, Hydro Voyager!'",
+      "created_at": "2026-10-10T00:00:15.101153"
+    },
+    {
+      "id": "e1e7d372-c81d-4b3f-b39b-deded7241fe4",
+      "user_id": "user-demo-aqua3d",
+      "channel": "email",
+      "notification_type": "reminder",
+      "status": "simulated",
+      "details": "Test simulated delivery to harishravi1006@gmail.com. Subject: '\ud83d\udca7 Quick hydration check-in, Hydro Voyager!'",
+      "created_at": "2026-10-10T00:00:32.584544"
+    }
+  ],
+  "user_achievements": [
+    {
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "ach-1",
+      "unlocked_at": "2026-09-25T23:15:32.588449",
+      "progress_value": 1
+    },
+    {
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "ach-2",
+      "unlocked_at": "2026-10-03T23:15:32.588449",
+      "progress_value": 1
+    },
+    {
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "ach-3",
+      "unlocked_at": "2026-10-05T23:15:32.588449",
+      "progress_value": 3
+    },
+    {
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "ach-5",
+      "unlocked_at": "2026-10-07T23:15:32.588449",
+      "progress_value": 500
+    },
+    {
+      "id": "31d411c5-dc8f-48f6-a299-d83e0c59ca6b",
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "first_drop",
+      "unlocked_at": "2026-10-09T23:32:09.424499"
+    },
+    {
+      "id": "7d2eeaeb-82d1-487a-a17b-cc71beecddc8",
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "volume_10k",
+      "unlocked_at": "2026-10-09T23:32:09.424499"
+    },
+    {
+      "id": "9749c535-a4c6-4f60-8f2c-6a6884bac2ca",
+      "user_id": "user-demo-aqua3d",
+      "achievement_id": "streak_3",
+      "unlocked_at": "2026-10-10T00:02:05.612837"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "challenge-wave-1",
+      "creator_id": "user-demo-aqua3d",
+      "title": "Ocean Wave 7-Day Sprint",
+      "description": "Hit 2,500ml daily hydration for a full week with the crew!",
+      "target_type": "daily_goal",
+      "target_value": 2500,
+      "duration_days": 7,
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-14",
+      "invite_code": "AQUA-7729",
+      "is_public": true,
+      "created_at": "2026-10-07T23:15:32.588449"
+    },
+    {
+      "id": "f657c18d-602a-4774-9739-e1909f7112a5",
+      "creator_id": "user-demo-aqua3d",
+      "title": "Hydrate To Win",
+      "description": "Daily hydration challenge",
+      "target_type": "daily_goal",
+      "target_value": 3000,
+      "duration_days": 5,
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-14",
+      "invite_code": "AQUA-CEE7",
+      "is_public": true,
+      "created_at": "2026-10-09T23:16:46.228217"
+    }
+  ],
+  "challenge_members": [
+    {
+      "id": "cm-1",
+      "challenge_id": "challenge-wave-1",
+      "user_id": "user-demo-aqua3d",
+      "display_name": "Kai Rivera",
+      "status": "active",
+      "current_progress_ml": 7500,
+      "joined_at": "2026-10-09T23:15:32.588449"
+    },
+    {
+      "id": "cm-2",
+      "challenge_id": "challenge-wave-1",
+      "user_id": "user-alex",
+      "display_name": "Elena Rostova",
+      "status": "active",
+      "current_progress_ml": 7250,
+      "joined_at": "2026-10-09T23:15:32.588449"
+    },
+    {
+      "id": "cm-3",
+      "challenge_id": "challenge-wave-1",
+      "user_id": "user-marcus",
+      "display_name": "Marcus Vance",
+      "status": "active",
+      "current_progress_ml": 6800,
+      "joined_at": "2026-10-09T23:15:32.588449"
+    },
+    {
+      "id": "cm-4",
+      "challenge_id": "challenge-wave-1",
+      "user_id": "user-zara",
+      "display_name": "Zara Chen",
+      "status": "active",
+      "current_progress_ml": 5900,
+      "joined_at": "2026-10-09T23:15:32.588449"
+    },
+    {
+      "id": "29585e40-d2f9-4abe-b6ac-37a57b3b78ab",
+      "challenge_id": "f657c18d-602a-4774-9739-e1909f7112a5",
+      "user_id": "user-demo-aqua3d",
+      "display_name": "Hydro Voyager",
+      "status": "active",
+      "current_progress_ml": 0,
+      "joined_at": "2026-10-09T23:16:46.228217"
+    }
+  ],
+  "ai_messages": [
+    {
+      "id": "d87a4a32-b392-4f4e-8992-94e8670df35a",
+      "user_id": "user-demo-aqua3d",
+      "user_message": "How much water did I drink today?",
+      "ai_reply": "You have logged **1250 ml** today across 3 entry(ies), reaching **50%** of your 2500 ml target. You have **1250 ml** remaining to hit your daily benchmark.",
+      "timestamp": "2026-10-09T23:16:46.195565"
+    }
+  ]
+}

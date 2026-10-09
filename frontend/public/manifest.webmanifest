@@ -1,0 +1,34 @@
+{
+  "name": "AQUA 3D — Hydration Companion",
+  "short_name": "AQUA 3D",
+  "description": "Next-Generation 3D Hydration Tracker with Smart Reminders, Weather Intelligence & AI Habits",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050b14",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Log 250ml Glass",
+      "short_name": "Quick Log",
+      "description": "Instantly record 250ml water intake",
+      "url": "/#log-250",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "View 3D Bottle",
+      "short_name": "3D Bottle",
+      "description": "Inspect your live 3D water bottle level",
+      "url": "/#dashboard",
+      "icons": [{ "src": "/favicon.svg", "sizes": "any" }]
+    }
+  ]
+}

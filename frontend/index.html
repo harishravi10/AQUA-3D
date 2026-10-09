@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>AQUA 3D — Next-Generation 3D Hydration Companion</title>
+    <meta name="description" content="Futuristic 3D hydration companion featuring interactive Three.js water bottle graphics, smart scheduled reminders, weather intelligence, habit analytics, and conversational AI guidance." />
+    <meta name="keywords" content="hydration tracker, 3d water bottle, three.js, hydration companion, smart reminders, wellness, aqua 3d" />
+    <meta name="theme-color" content="#06b6d4" />
+    <meta name="color-scheme" content="dark light" />
+    
+    <!-- PWA & Mobile Web App Meta -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="AQUA 3D" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="AQUA 3D — Next-Generation 3D Hydration Companion" />
+    <meta property="og:description" content="Realistic 3D water bottle simulation with smart scheduled reminders and habit intelligence." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.svg" />
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-cyan-500 selection:text-slate-950">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Service worker registration
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch((err) => {
+            console.log('SW registration note:', err.message);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
